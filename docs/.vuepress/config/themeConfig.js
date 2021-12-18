@@ -7,7 +7,7 @@ module.exports = {
   smoothScroll: true,
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   // logo: '/img/logo.png', // 导航栏logo
-  repo: 'https://github.com/MssText/MssText.github.io', // 导航栏右侧生成Github链接
+  repo: 'https://github.com/isgangzi/weig-Blog', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
@@ -38,12 +38,12 @@ module.exports = {
   //   '图标地址1',
   //   '图标地址2'
   // ],
-  // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
+  contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
 
-  // updateBar: { // 最近更新栏
-  //   showToArticle: true, // 显示到文章页底部，默认true
-  //   moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
-  // },
+  updateBar: { // 最近更新栏
+    showToArticle: false, // 显示到文章页底部，默认true
+    //moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
+  },
   // rightMenuBar: false, // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
   // sidebarOpen: false, // 初始状态是否打开侧边栏，默认true
   // pageButton: false, // 是否显示快捷翻页按钮，默认true
@@ -52,8 +52,8 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'masongsong', // 必需
-    link: 'https://github.com/MssText', // 可选的
+    name: 'gangzi', // 必需
+    link: 'https://www.yuque.com/weig', // 可选的
   },
   // blogger: {
   //   // 博主信息，显示在首页侧边栏
@@ -63,22 +63,27 @@ module.exports = {
   // },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
-    iconfontCssFile: '//at.alicdn.com/t/font_1490075_giqxpk444o8.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
+    // iconfontCssFile: '//at.alicdn.com/t/font_1490075_giqxpk444o8.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
       {
         iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:2698745548@qq.com',
+        title: 'Email',
+        link: 'mailto:isgangzi@163.com',
+      },
+      {
+        iconClass: 'icon-yuque',
+        title: '语雀',
+        link: 'https://www.yuque.com/wgg',
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
-        link: 'https://github.com/MssText',
+        link: 'https://github.com/isgangzi',
       },
       {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: 'https://music.163.com/#/my/m/music/playlist?id=5049085662',
+        iconClass: 'icon-csdn',
+        title: 'CSDN',
+        link: 'https://blog.csdn.net/qq_33188180',
       },
     ],
   },
@@ -86,7 +91,7 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Ma Song Song | <a href="https://github.com/MssText" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+        'Gang zi | <a href="https://github.com/isgangzi/weigBlog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }
