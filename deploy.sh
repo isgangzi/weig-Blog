@@ -13,12 +13,12 @@ cd docs/.vuepress/dist
 echo 'masongsong.cn' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:MssText/MssText.github.io.git
+  githubUrl=git@github.com:isgangzi/weig-Blog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://MssText:${GITHUB_TOKEN}@github.com/MssText/MssText.github.io.git
-  git config --global user.name "masongsong"
-  git config --global user.email "2698745548@qq.com"
+  githubUrl=https://isgangzi:${GITHUB_TOKEN}@github.com/isgangzi/weig-Blog.git
+  git config --global user.name "isgangzi"
+  git config --global user.email "956910931@qq.com"
 fi
 git init
 git add -A
@@ -39,5 +39,5 @@ git push -f $githubUrl master:gh-pages # 推送到github
 # git push -f $codingUrl master # 推送到coding
 #
 #
-#cd - # 退回开始所在目录
-#rm -rf docs/.vuepress/dist
+cd - # 退回开始所在目录
+rm -rf docs/.vuepress/dist

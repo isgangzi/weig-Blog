@@ -16,8 +16,9 @@ module.exports = [
       {
         text: '框架能力',
         items: [
-          { text: 'Vue', link: '/pages/235d3a/' },
-          { text: 'React', link: '/pages/58cdc3/' },
+          { text: 'Spring', link: '/pages/235d3a/' },
+          { text: 'SpringBoot', link: '/pages/58cdc3/' },
+          { text: 'Mybaties', link: '/pages/58cdc3/' },
         ],
       },
       {
@@ -30,15 +31,16 @@ module.exports = [
     ],
   },
   {
-    text: '页面杂谈',
+    text: '技术杂谈',
     link: '/ui/',
     items: [
       { text: 'HTML', link: '/pages/1403bc/' },
       { text: 'CSS', link: '/pages/6d9467/' },
+      { text: '博客搭建', link: '/pages/bf819e/' },
     ],
   },
   {
-    text: '书房百味',
+    text: '百草屋',
     link: '/read/',
     items: [
       { text: '最近在读', link: '/pages/511ed7/' },
@@ -46,6 +48,16 @@ module.exports = [
       { text: '读书收获', link: '/pages/b79286/' },
     ],
   },
-  { text: '归档', link: '/archives/'},
+  // { text: '归档', link: '/archives/'},
+  {
+    text: '索引',
+    link: '/archives/',
+    items: [
+      { text: '归档', link: '/archives/' },
+      { text: '分类', link: '/categories/' },
+      { text: '标签', link: '/tags/' },
+    ],
+  },
+  { text: '收藏', link: '/collect/' },
   { text: '关于我', link: '/about/' }
 ]
