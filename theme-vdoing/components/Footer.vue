@@ -33,13 +33,34 @@
 </template>
 
 <script>
+// export default {
+//   computed: {
+//     social () {
+//       return this.$themeConfig.social
+//     },
+//     footer () {
+//       return this.$themeConfig.footer
+//     }
+//   }
+// }
+
+let script;
 export default {
+  mounted() {
+    script = require("busuanzi.pure.js");
+  },
   computed: {
-    social () {
+    social() {
       return this.$themeConfig.social
     },
-    footer () {
+    footer() {
       return this.$themeConfig.footer
+    }
+  },watch: {
+    '$route' (to, from) {
+      if (to.path !== from.path) {
+        script.fetch();
+      }
     }
   }
 }
