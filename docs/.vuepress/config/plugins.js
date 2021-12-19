@@ -48,7 +48,7 @@ module.exports = [
     {
       // 代码块复制按钮
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
-      copyMessage: '宁复制了代码，记得标明出处哦！', // default is 'Copy successfully and then paste it for use.'
+      copyMessage: '您复制了代码，记得标明出处哦！', // default is 'Copy successfully and then paste it for use.'
       duration: 1000, // prompt message display time.
       showInMobile: false, // whether to display on the mobile side, default: false.
     },
