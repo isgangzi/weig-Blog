@@ -87,11 +87,11 @@ module.exports = [
     {
       choosen: 'gitalk',
       options: {
-        clientID: '5275ba125b0f574a7517',
-        clientSecret: 'c704bb535fa7a0f1612cd7f95d0f732043560532',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'MssText', // GitHub仓库所有者
-        admin: ['MssText'], // 对仓库有写权限的人
+        clientID: '6c5be7c1486f1e6cd9e4',
+        clientSecret: 'a7656f8e8a15e355b9ae43b25250561afd728be8',
+        repo: 'weig-Blog', // GitHub 仓库
+        owner: 'isgangzi', // GitHub仓库所有者
+        admin: ['isgangzi'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50

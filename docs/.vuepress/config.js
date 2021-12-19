@@ -8,7 +8,7 @@ module.exports = {
 
   title: "WeiG's blog",
   description: '凡心所向，素履所往，生如逆旅，一苇以航',
-  // base: '/mss-blog/', // 格式：'/<仓库名>/'， 默认'/'
+  base: '/weig-Blog/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
   },
