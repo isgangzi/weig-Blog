@@ -10,6 +10,7 @@ module.exports = [
       content: '后端博客,博客,vuepress,个人技术博客,后端,后端开发,后端框架,web后端,后端面试题,技术文档,学习,面试,Java,springboot,ssm,es,mybaties,python,leetcode,git,github,markdown',
     },
   ],
+  ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}], // 不蒜子统计
   ['meta', { name: 'baidu-site-verification', content: 'code-TgLyWpl7hG' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   // [
