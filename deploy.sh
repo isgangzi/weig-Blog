@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github
-#echo 'masongsong.cn' > CNAME
+echo 'wggz.top' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:isgangzi/weig-Blog.git
