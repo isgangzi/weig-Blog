@@ -11,7 +11,7 @@ module.exports = [
     },
   ],
   ['meta', {name: 'referrer', content: 'no-referrer-when-downgrade'}], // 不蒜子统计
-  ['meta', {name: 'baidu-site-verification', content: 'code-l0A2rfDy4a'}],// 百度统计的站长验证
+  ['meta', {name: 'baidu-site-verification', content: 'code-j18kmQxBCf'}],// 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   // [
   //   'script',
