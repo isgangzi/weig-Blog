@@ -27,17 +27,17 @@ postList: none
 ```yaml
 - name: Java剑谱系列
   desc: 基础，JVM，并发，集合，反射等等
-  link: https://www.baidu.com/
+  link: https://www.wggz.top/
   bgColor: 'rgb(221, 237, 234)'
   textColor: '#2A3344'
 - name: SpringBoot系列
   desc: SpringBoot从零到一系列学习记录及教程分享
-  link: https://www.baidu.com/
+  link: https://www.wggz.top/
   bgColor: 'rgb(221, 237, 234)'
   textColor: '#2A3344'
 - name: Mysql心经
   desc: 索引，B+树，锁，引擎，日志等等
-  link: https://www.baidu.com/
+  link: https://www.wggz.top/
   bgColor: 'rgb(221, 237, 234)'
   textColor: '#2A3344'
 ```
