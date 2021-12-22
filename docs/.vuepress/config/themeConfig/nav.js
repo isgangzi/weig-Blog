@@ -7,10 +7,11 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
-        text: '原生能力',
+        text: '种类',
         items: [
-          { text: 'JavaScript', link: '/pages/98424b/' },
-          { text: 'Node', link: '/pages/04a264/' }
+          { text: 'Java', link: '/pages/98424b/' },
+          { text: 'Mysql', link: '/pages/04a264/' },
+          { text: 'Redis', link: '/pages/04a264/' },
         ],
       },
       {
@@ -19,6 +20,7 @@ module.exports = [
           { text: 'Spring', link: '/pages/235d3a/' },
           { text: 'SpringBoot', link: '/pages/58cdc3/' },
           { text: 'Mybaties', link: '/pages/58cdc3/' },
+          { text: 'ES', link: '/pages/58cdc3/' },
         ],
       },
       {
@@ -44,9 +46,9 @@ module.exports = [
     text: '百草屋',
     link: '/read/',
     items: [
-      { text: '最近在读', link: '/pages/511ed7/' },
-      { text: '奇思妙想', link: '/pages/44e592/' },
-      { text: '读书收获', link: '/pages/b79286/' },
+      { text: '程序人生', link: '/pages/44e592/' },
+      { text: '所思所想', link: '/pages/511ed7/' },
+      { text: '人生游记', link: '/pages/b79286/' },
     ],
   },
   // { text: '归档', link: '/archives/'},
