@@ -75,7 +75,9 @@
       /> -->
     </Page>
 
-    <Footer v-if="showLicense" />
+    <!--每个单独页面没有页脚-->
+    <!--<Footer v-if="showLicense" />-->
+    <Footer />
 
     <Buttons
       ref="buttons"
