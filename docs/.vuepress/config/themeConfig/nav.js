@@ -37,8 +37,8 @@ module.exports = [
     items: [
       { text: '大杂烩', link: '/pages/4e5c11/' },
       { text: 'Docker', link: '/pages/a3da47/' },
-      { text: '秋招面经系列', link: '/pages/3a9163/' },
       { text: '博客搭建', link: '/pages/bf819e/' },
+      { text: 'Git', link: '/pages/243aae/' },
     ],
   },
   {
