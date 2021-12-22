@@ -1,7 +1,7 @@
 // 插件配置
 module.exports = [
   // 本地插件
-  [require('../plugins/cat')], // 小猫插件
+ // [require('../plugins/cat')], // 小猫插件
 
   [require('../plugins/read')], // 阅读时间插件
 
