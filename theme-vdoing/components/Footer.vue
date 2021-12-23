@@ -84,7 +84,8 @@ export default {
 .footer
   padding 5rem 1.5rem 2.5rem
   text-align center
-  color #666
+  //color #666
+  color #121212 // 页脚颜色
   box-sizing border-box
   font-size 0.85rem
   transition all 0.2s ease
