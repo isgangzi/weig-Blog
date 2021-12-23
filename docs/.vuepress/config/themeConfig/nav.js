@@ -7,22 +7,21 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
-        text: '种类',
+        text: '类目',
         items: [
-          { text: 'Java', link: '/pages/98424b/' },
+          { text: 'Java', link: '/pages/6ef29e/' },
           { text: 'Mysql', link: '/pages/04a264/' },
-          { text: 'Redis', link: '/pages/04a264/' },
         ],
       },
-      {
-        text: '框架能力',
-        items: [
-          { text: 'Spring', link: '/pages/235d3a/' },
-          { text: 'SpringBoot', link: '/pages/58cdc3/' },
-          { text: 'Mybaties', link: '/pages/58cdc3/' },
-          { text: 'ES', link: '/pages/58cdc3/' },
-        ],
-      },
+      // {
+      //   text: '框架能力',
+      //   items: [
+      //     { text: 'Spring', link: '/pages/235d3a/' },
+      //     { text: 'SpringBoot', link: '/pages/58cdc3/' },
+      //     { text: 'Mybaties', link: '/pages/58cdc3/' },
+      //     { text: 'ES', link: '/pages/58cdc3/' },
+      //   ],
+      // },
       {
         text: '学习笔记',
         items: [
