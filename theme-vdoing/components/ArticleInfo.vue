@@ -93,6 +93,15 @@
           class="date iconfont icon-yuedu">
           <span>{{ '时间 ' + readingTimeMsg}}</span>
         </div>
+        <!--添加不蒜子页面浏览量插件-->
+        <div
+            id="busuanzi_container_site_pv"
+            class="icon iconfont icon-eye"
+            title="浏览量"
+        >
+          <span id="busuanzi_value_page_pv"></span>
+        </div>
+        <!---->
         <div
           v-if="$themeConfig.isShowReadCount"
           :id="$page.path"

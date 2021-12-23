@@ -16,7 +16,7 @@ module.exports = {
 
   isShowReadTime: true, // 是否展示阅读时间
   // wordsPerMinute: 100, // 每分钟阅读的字数 默认是 300
-  isShowReadCount: true, // 是否开启阅读量统计
+  // isShowReadCount: true, // 是否开启阅读量统计
 
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
