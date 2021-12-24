@@ -5,10 +5,10 @@ module.exports = [
 
   [require('../plugins/read')], // 阅读时间插件
 
-  [require('../plugins/love-me'), { // 鼠标点击爱心特效
-    color: '#fb7299', // 爱心颜色，默认随机色
-    excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-  }],
+  // [require('../plugins/love-me'), { // 鼠标点击爱心特效
+  //   color: '#fb7299', // 爱心颜色，默认随机色
+  //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
+  // }],
 
   'vuepress-plugin-baidu-autopush', // 百度自动推送
 
@@ -110,5 +110,13 @@ module.exports = [
         return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
       },
     },
-  ]
+  ],
+    [
+      'vuepress-plugin-cursor-effects', // 鼠标点击特效
+      {
+        size: 2, // size of the particle, default: 2
+        shape: ['star'], // 'star' | 'circle' : shape of the particle, default: 'star'
+        zIndex: 999999999, // z-index property of the canvas, default: 999999999
+      },
+    ],
 ]
