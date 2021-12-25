@@ -25,7 +25,7 @@ module.exports = [
       {
         text: '学习笔记',
         items: [
-          { text: '《TypeScript》学习笔记', link: '/note/typescript/' },
+          { text: '《ES-学习笔记》', link: '/note/es/' },
         ],
       }
     ],
