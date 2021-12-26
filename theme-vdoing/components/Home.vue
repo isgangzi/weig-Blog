@@ -370,6 +370,7 @@ export default {
         .description
           max-width 40rem
           font-size 1.1rem
+          font-weight bold // feat
           line-height 1.3
           opacity 0.9
         .action-button
