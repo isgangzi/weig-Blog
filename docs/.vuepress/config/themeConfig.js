@@ -27,9 +27,12 @@ module.exports = {
   // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   bodyBgImg: [
-    '/img/bg2.jpeg',
+    // '/img/1.jpg',
+    '/img/2.jpg',
+    // '/img/3.jpg',
+    // '/img/4.jpg',
   ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
-  bodyBgImgOpacity: 0.7, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
+  bodyBgImgOpacity: 1, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
   // titleBadge: false, // 文章标题前的图标是否显示，默认true
   // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
@@ -53,12 +56,12 @@ module.exports = {
     name: 'gangzi', // 必需
     link: 'https://www.yuque.com/weig', // 可选的
   },
-  // blogger: {
-  //   // 博主信息，显示在首页侧边栏
-  //   avatar: 'https://cdn.jsdelivr.net/gh/MssText/learn@master/images/49203535.35emn5vryma0.png',
-  //   name: 'captain',
-  //   slogan: '心之所向，海的彼岸',
-  // },
+  blogger: {
+    // 博主信息，显示在首页侧边栏
+    avatar: '/img/headlogo.png',
+    name: 'Wei-G',
+    slogan: '即使再小的帆也可以远航！',
+  },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
     iconfontCssFile: '//at.alicdn.com/t/font_1490075_giqxpk444o8.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加

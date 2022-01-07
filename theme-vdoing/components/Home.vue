@@ -194,7 +194,7 @@ export default {
       mark: 0,
 
       total: 0, // 总长
-      perPage: 10, // 每页长
+      perPage: 8, // 每页长
       currentPage: 1// 当前页
     }
   },
@@ -343,7 +343,7 @@ export default {
 .home-wrapper
   .banner
     width 100%
-    min-height 450px
+    min-height 300px // 450
     margin-top $navbarHeight
     color $bannerTextColor
     position relative
@@ -359,19 +359,19 @@ export default {
         margin-top 3rem
         img
           max-width 100%
-          max-height 240px
+          max-height 170px  // 240
           display block
-          margin 2rem auto 1.5rem
+          margin 2rem auto 1.0rem //  1.5
         h1
           margin 0
           font-size 3.2rem
         .description, .action
-          margin 1.5rem auto
+          margin 1.0rem auto  //  1.5
         .description
           max-width 40rem
           font-size 1.1rem
-          font-weight bold // feat
-          line-height 1.3
+          font-weight bold // add
+          line-height 1.0 // 1.3
           opacity 0.9
         .action-button
           display inline-block

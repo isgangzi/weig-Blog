@@ -5,7 +5,7 @@
       <img
         :src="blogger.avatar"
         alt="头像"
-        title="我是一名勇敢的船长"
+        title="GoGo～～"
       />
     </div>
     <div class="blogger">
@@ -54,7 +54,7 @@ export default {
     // height 235px
     overflow hidden
     .blogger-top
-      background url("https://cdn.jsdelivr.net/gh/MssText/learn@master/images/BrightonSnow_ZH-CN0309526170_1920x1080.58fhvngy1ww0.jpg")
+      //background url("https://cdn.jsdelivr.net/gh/MssText/learn@master/images/BrightonSnow_ZH-CN0309526170_1920x1080.58fhvngy1ww0.jpg")
       background-size:100%,100%;
       width 100%
       height 120px
