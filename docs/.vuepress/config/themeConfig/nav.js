@@ -25,7 +25,7 @@ module.exports = [
       {
         text: '学习笔记',
         items: [
-          { text: '《ES-学习笔记》', link: '/note/es/' },
+          { text: '《SpringBoot-学习笔记》', link: '/note/SpringBoot/' },
         ],
       }
     ],
