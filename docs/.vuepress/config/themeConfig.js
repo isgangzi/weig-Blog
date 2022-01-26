@@ -27,10 +27,11 @@ module.exports = {
   // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   bodyBgImg: [
-    // '/img/1.jpg',
-    '/img/2.jpg',
-    // '/img/3.jpg',
-    // '/img/4.jpg',
+    // '/img/bg/1.jpg',
+    // '/img/bg/2.jpg',
+    // '/img/bg/4.jpg',
+    '/img/bg/5.jpg',
+    // '/img/bg/bg7.jpg',
   ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImgOpacity: 1, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
@@ -75,6 +76,11 @@ module.exports = {
         iconClass: 'icon-yuque',
         title: '语雀',
         link: 'https://www.yuque.com/weig',
+      },
+      {
+        iconClass: 'icon-youtube',
+        title: '吾爱静茹',
+        link: 'https://isgangzi.gitee.io/love/',
       },
       {
         iconClass: 'icon-github',

@@ -19,17 +19,17 @@
  */
 
 module.exports = {
-//   homeSidebarB:
-//     `<!-- 纵向自适应 -->
-//     <ins class="adsbygoogle"
-//         style="display:block;padding: 0.95rem;"
-//         data-ad-client="ca-pub-7828333725993554"
-//         data-ad-slot="7802654582"
-//         data-ad-format="auto"
-//         data-full-width-responsive="true"></ins>
-//     <script>
-//         (adsbygoogle = window.adsbygoogle || []).push({});
-//     </script>`,
+  homeSidebarB:
+    `<!-- 纵向自适应 -->
+    <ins class="adsbygoogle"
+        style="display:block;padding: 0.95rem;"
+        data-ad-client="ca-pub-7828333725993554"
+        data-ad-slot="7802654582"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>`,
   // sidebarT:
   //   `<!--  固定100% * 150px可显示，max-height:150px 未见显示-->
   //   <ins class="adsbygoogle"
@@ -95,12 +95,25 @@ module.exports = {
 }
 
 
-// module.exports = {
-//   homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+module.exports = {
+  // homeSidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
+    homeSidebarB:  `<div style="padding: 0.95rem">
+    <p style="
+      color: var(--textColor);
+      opacity: 0.9;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0 0 8px 0;
+    ">公众号</p>
+    <img src="/img/vxgzhsys.png"  style="width:100%;" />
+    <p>
+    相信努力的意义，用文字记录成长和蜕变，分享所得，自然圆满。
+    </p>
+    </div>`,
 //   sidebarT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   sidebarB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   pageT: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   pageB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   windowLB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
 //   windowRB: `<div style="width:100%;height:100px;color:#fff;background: #eee;">自定义模块测试</div>`,
-// }
+}
